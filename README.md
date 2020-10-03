@@ -1,19 +1,19 @@
-结构化存储PHP SDK
+Structured storage PHP SDK
 ========================
-1. 安装第三方依赖
+1. Install third-party dependencies
 
 ```
 ./composer.phar install
 ```
 
-2. php环境配置：
+2. php environment configuration:
   需要安装Client URL Library（php curl）扩展,
 否则会报PHP Fatal error:  Call to undefined function SDS\Client\curl_init()。
 
-3. 客户端metrics默认为关闭，当开启时，
+3. Client metrics are off by default. When on,
 需要安装php pthreads扩展。
 
-4. 运行示例代码，测试是否正常(需要修改示例代码中的AppID/AppSecret)
+4. Run the sample code to test whether it is normal (need to modify the AppID/AppSecret in the sample code)
 
 ```
 php examples/Basic.php
